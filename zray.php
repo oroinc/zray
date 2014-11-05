@@ -21,5 +21,5 @@ $zre->traceFunction("Symfony\Component\HttpKernel\Kernel::terminate", function()
             $currentConfiguration[$key] = $cm->get($key);
         }
     }
-    $storage['OroConfiuration'][] = $currentConfiguration;
+    $storage['OroConfiguration'][] = $currentConfiguration;
 });
