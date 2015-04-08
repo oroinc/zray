@@ -27,6 +27,5 @@ $zre->traceFunction("Symfony\Component\HttpKernel\Kernel::terminate", function()
     } else {
         $currentConfiguration['installed'] = false;
     }
-
-    $storage['OroConfiuration'][] = $currentConfiguration;
+    $storage['OroConfiguration'][] = $currentConfiguration;
 });
